@@ -1,0 +1,80 @@
+.img-round {
+    border-radius: 75%;
+    max-width: 400px;
+    max-height: 400px;
+    margin-bottom:1em;
+    box-shadow: 2rem 2rem 2rem #9394a5;
+}
+
+#intro {
+    padding-top:  10%;
+}
+
+#about {
+    padding-top: 20%;
+    padding-bottom: 15%;
+}
+
+#projects {
+    padding-top: 5%;
+    padding-bottom: 15%;
+}
+
+#contact {
+    padding-bottom: 15%;
+}
+
+.typeit-text {
+    text-align: center;
+    padding-top: 25px;
+}
+
+body {
+    background-color: #fafafa;
+    color: #9394a5;
+}
+
+#navbar{
+    background-color: #fafafa;
+    
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    color: #484b6a;
+}
+
+.vertical-line {
+    border-left: 1px solid black;
+    opacity: 25%;
+    height: 150px;
+    position: absolute;
+    left: 50%;
+}
+
+.btn {
+    border-radius: 50px;
+}
+
+
+#navbar {
+    background: transparent;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    .vertical-line {
+        opacity: 0%;
+    } 
+}
+
+.social-container {
+    margin-top: 1em;
+}
+.social-links {
+    color: #484b6a;
+    margin:.5em;
+    
+}
