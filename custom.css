@@ -65,7 +65,7 @@ body {
     margin-left: auto;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .vertical-line {
         opacity: 0%;
     } 
