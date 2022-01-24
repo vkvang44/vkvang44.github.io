@@ -2,17 +2,18 @@
     border-radius: 75%;
     max-width: 400px;
     max-height: 400px;
-    margin-bottom:1em;
-    box-shadow: 2rem 2rem 2rem #9394a5;
+    margin-bottom:4em;
+    box-shadow: 2rem 2rem 2rem rgba(0,0,0,.50)!important;
 }
 
 #intro {
-    padding-top:  10%;
+    padding-top:  5%;
+    padding-bottom: 10%;
 }
 
 #about {
     padding-top: 20%;
-    padding-bottom: 15%;
+    
 }
 
 #projects {
@@ -24,23 +25,18 @@
     padding-bottom: 15%;
 }
 
-.typeit-text {
-    text-align: center;
-    padding-top: 25px;
-}
-
 body {
-    background-color: #fafafa;
-    color: #9394a5;
+    background-color: #fff;
+    color: #333 ;
 }
 
 #navbar{
-    background-color: #fafafa;
+    background-color: #fff;
     
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    color: #484b6a;
+    color: #333;
 }
 
 .vertical-line {
@@ -54,7 +50,6 @@ body {
 .btn {
     border-radius: 50px;
 }
-
 
 #navbar {
     background: transparent;
@@ -74,7 +69,22 @@ body {
     margin-top: 1em;
 }
 .social-links {
-    color: #484b6a;
     margin:.5em;
     
 }
+
+.project-img {
+    transition: all 0.25s ease-out;
+}
+
+.project-img:hover {
+    box-shadow: .5rem .5rem .5rem rgba(0,0,0,.50)!important;
+    cursor: pointer;
+}
+
+.modal-header {
+    border-bottom: 0px;
+}
+
+
+
