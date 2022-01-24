@@ -1,4 +1,4 @@
-html,body{
+html{
     overflow-x: hidden;
 }
 
@@ -32,6 +32,7 @@ html,body{
 body {
     background-color: #fff;
     color: #333 ;
+    overflow-x: hidden;
 }
 
 #navbar{
