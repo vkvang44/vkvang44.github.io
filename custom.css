@@ -47,9 +47,10 @@ body {
 .vertical-line {
     border-left: 1px solid black;
     opacity: 25%;
-    height: 150px;
+    height: 200px;
     position: absolute;
     left: 50%;
+    width:auto;
 }
 
 .btn {
@@ -90,6 +91,4 @@ body {
 .modal-header {
     border-bottom: 0px;
 }
-
-
 
